@@ -1,0 +1,11 @@
+User: Hello
+Assistant: Hi! How can I help you today?
+
+User: I want to cancel my order
+Assistant: Sure, please provide your order ID.
+
+User: My order ID is 12345
+Assistant: Your order has been successfully cancelled.
+
+User: Thank you
+Assistant: You're welcome! Have a great day.
