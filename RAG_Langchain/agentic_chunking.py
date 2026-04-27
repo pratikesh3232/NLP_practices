@@ -41,7 +41,7 @@ which can infect humans are P. malariae, P. ovale and P. knowlesi.
 
 
 
-# Create the prompt
+#prompt
 prompt = f"""
 You are a text chunking expert. Split this text into logical chunks.
 
@@ -64,11 +64,11 @@ marked_text = res.content
 chunks = marked_text.split("<<<SPLIT>>>")
 
 
-# Clean up the chunks (remove extra whitespace)
+# Clean up the chunks
 clean_chunks = []
 for chunk in chunks:
     cleaned = chunk.strip()
-    if cleaned:  # Only keep non-empty chunks
+    if cleaned:
         clean_chunks.append(cleaned)
 
 # Show results
